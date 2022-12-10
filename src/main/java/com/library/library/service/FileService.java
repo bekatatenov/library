@@ -28,7 +28,7 @@ import org.springframework.web.multipart.MultipartFile;
 @Service
 public class FileService {
 
-  @Value("$src/main/uploads")
+  @Value("src/main/uploads")
   private String uploadPath;
   private final Map<String, String> uploadPaths = new HashMap<>();
 
